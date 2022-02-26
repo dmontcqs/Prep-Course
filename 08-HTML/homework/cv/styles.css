@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Montserrat:wght@200&family=Roboto+Serif:wght@200&display=swap');
+
 body{
     background-image: url(https://images.unsplash.com/photo-1454117096348-e4abbeba002c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
     background-color: whitesmoke;
     background-size: cover;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #foto-diego{
@@ -15,6 +16,8 @@ body{
 
 h1, h2, h3{
     text-align: center;  
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 #personal-description, #education, #experience, #skills{
@@ -22,8 +25,8 @@ h1, h2, h3{
     justify-content: center;
 }
 
-#personal-description{
-    padding: 0px 60px;
+#personal-description, .last-p{
+    padding: 0px 150px;
 }
 #education p{
     display: block;
@@ -38,5 +41,7 @@ p{
 text-align: center;
 font-size: 19px;
 list-style: none;
+font-family: 'Roboto Serif', sans-serif;
+line-height: 2em;
 }
 
